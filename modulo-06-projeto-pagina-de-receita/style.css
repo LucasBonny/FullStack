@@ -36,7 +36,7 @@ h2 {
 }
 h1, h2 {
   color: #291B1A;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 section {
   padding: 0 1.5rem;
@@ -57,8 +57,11 @@ footer {
   width: 800px;
   margin: 0 auto;
 }
-footer > p {
+footer {
   text-align: center;
   margin-bottom: 3rem;
   color: #F0E8C2;
+}
+footer > img {
+  vertical-align: middle;
 }

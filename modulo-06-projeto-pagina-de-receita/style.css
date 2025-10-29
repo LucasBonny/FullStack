@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 :root{
   font-family: 'Alice', sans-serif;
   line-height: 150%;
@@ -9,7 +13,6 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0;
 }
 /*PÁGINA*/
 img {
@@ -27,19 +30,28 @@ main {
 h1 {
   line-height: 140%;
   font-size: 40px;
-  margin-bottom: 0px;
 }
 h2 {
   font-size: 24px;
 }
 h1, h2 {
   color: #291B1A;
+  margin-bottom: 0.25rem;
 }
 section {
   padding: 0 1.5rem;
 }
+section + section {
+  padding-top: 1.5rem;
+}
 section > h1 {
   margin-top: 1.5rem;
+}
+#about p + p {
+  margin-top: 0.75rem;
+}
+ul {
+  padding: 0 1.5rem;
 }
 footer {
   width: 800px;
